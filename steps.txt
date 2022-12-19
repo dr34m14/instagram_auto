@@ -1,0 +1,7 @@
+[.] login 
+[.] info log
+[.] app -
+	[.] unfollow
+	[.] auto follow {number:how many,where:one person following all or n
+	[.]
+[.]
