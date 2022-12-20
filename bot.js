@@ -1,5 +1,4 @@
 const puppeteer = require('puppeteer')
-
 const BASE_URL="https://instagram.com/"
 const instagram = {
     browser: null,
@@ -15,4 +14,4 @@ const instagram = {
     }
 }
 
-module.exports=instagram
+module.exports=instagram;
