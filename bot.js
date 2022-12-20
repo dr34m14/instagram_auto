@@ -24,6 +24,12 @@ const instagram = {
         loginButton[0].click();
         /*clcik*/
         debugger;
+        /*
+        login 
+        profile or statemant
+        2 fun.
+        
+        */
     }
 }
 
