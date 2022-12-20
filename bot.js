@@ -10,7 +10,13 @@ const instagram = {
 
         });
         instagram.page=await instagram.browser.newPage();
-        await instagram.page.goto(BASE_URL,{waitUntil:'networkidle2'})
+    },
+    login: async (username,password)=>{
+        await instagram.page.goto(BASE_URL,{waitUntil:'networkidle2'});
+        let loginButton =await instagram.page.$x("//div[contains(text(), 'Log in')]")
+        console.log(loginButton)
+        loginButton[0].click()
+        debugger;
     }
 }
 

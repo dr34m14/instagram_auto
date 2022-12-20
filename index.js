@@ -4,5 +4,7 @@ const ig = require('./bot.js');
     console.log(ig)
 
 await ig.initialize();
+await ig.login('test','1234');
+
 debugger;
 })();
