@@ -5,3 +5,6 @@
 	[.] auto follow {number:how many,where:one person following all or n
 	[.]
 [.]
+
+// new auto story 
+[.] some msg
